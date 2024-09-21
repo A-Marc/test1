@@ -1,4 +1,40 @@
-<p class="promo">site test</p>
-<input type="text" class="formulaire" placeholder="Entrez votre texte ici">
-<a href="https://www.google.com" class="button-link">Aller sur Google</a>
-<iframe src="https://buco.li" width="600" height="800" frameborder="0" allowfullscreen title="CodePen Embed">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enorme Champ Input</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            width: 95vw;
+            height: 95vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        textarea {
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+            font-size: 18px;
+            border: 2px solid #ccc;
+            box-sizing: border-box;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <textarea placeholder="Entrez votre texte ici..."></textarea>
+    </div>
+</body>
+</html>
