@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enorme Champ Input</title>
+    <title>Enorme Bouton</title>
     <style>
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
-            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -21,20 +20,27 @@
             justify-content: center;
             align-items: center;
         }
-        textarea {
+        .big-button {
             width: 100%;
             height: 100%;
+            font-size: 48px;
             padding: 20px;
-            font-size: 18px;
-            border: 2px solid #ccc;
-            box-sizing: border-box;
-            resize: none;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+        }
+        .big-button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <textarea placeholder="Entrez votre texte ici..."></textarea>
+        <button class="big-button" onclick="window.location.href='https://www.google.com'">
+            Aller sur Google
+        </button>
     </div>
 </body>
 </html>
